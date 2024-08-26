@@ -17,11 +17,15 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .heading-color {
+            color: #212121;
+        }
     </style>
 </head>
 
 <body class="font-manrope">
-    <header class="bg-gradient-to-t from-gray-100 to-white">
+    <header class="bg-gradient-to-b from-gray-100 to-white py-5">
         <!-- navbar start -->
         <nav class="container mx-auto">
             <div class="navbar">
@@ -106,8 +110,43 @@
 
         <!-- banner start -->
 
-        <section>
-            
+        <section class="container mx-auto py-8">
+
+            <div class="flex flex-col items-center space-y-4 md:space-y-10 px-5">
+                <div>
+                    <img src="./assets/banner.png" alt="">
+                </div>
+                <h1 class="text-2xl md:text-7xl md:w-10/12 font-extrabold text-center heading-color">A barn house of
+                    this design has a
+                    striking
+                    appearance</h1>
+                <p class="text-base md:w-3/4 text-center font-medium heading-color">The barn house captivates with its
+                    blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div
+                    class="hidden md:inline-flex justify-center items-center gap-2 bg-[#ABEF5F80] py-3 px-5 ml-4 rounded-full">
+                    <h1 class="text-xl font-extrabold">View Details</h1>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-8 bg-[#ABEF5F] p-2 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                </div>
+                <div
+                    class="w-full flex justify-center items-center gap-2 bg-[#ABEF5F80] py-3 px-5 rounded-full md:hidden">
+                    <h1 class="text-xl font-extrabold">View Details</h1>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-8 bg-[#ABEF5F] p-2 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!-- banner end -->
 
